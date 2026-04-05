@@ -2,7 +2,7 @@ Time efficient MATLAB algorithms for processing large amounts of data: audio han
 
 Mara Gheorghe, Politehnica University of Bucharest
 
-** The automatic checker was written by the Numerical Methods team
+** The automatic checker and the suite of tests were provided by the Numerical Methods team
 
 Task 1 - Numerical Music*
 Description: this task aims to be an introduction to signal processing and visual representation of audio data
