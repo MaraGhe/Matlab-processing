@@ -2,7 +2,7 @@ Time efficient MATLAB algorithms for processing large amounts of data: audio han
 
 Mara Gheorghe, Politehnica University of Bucharest
 
-** The automatic checker and the suite of tests were provided by the Numerical Methods team
+** The automatic checker and the suite of inputs and tests were provided by the Numerical Methods team
 
 Task 1 - Numerical Music*
 Description: this task aims to be an introduction to signal processing and visual representation of audio data
@@ -11,6 +11,8 @@ Description: this task aims to be an introduction to signal processing and visua
 	oscillator.m -> takes as parameters the frequency of the sine wave, the duration of the created sound, the sampling rate and the envelope that describes how the amplitude of the sound changes over time. The envelope is quite usual, containing data about the attack, decay, sustain and release of the sound. The function returns the generated sine wave as a column vector.
 	low_pass.m -> takes a signal, a sampling rate and a cutoff frequency 'fc'. The Fourier coefficients corresponding to the frequencies higher than fc are set to 0 them the inverse Fourier transforma is applied to obtain the filtered signal.
 	apply_reverb.m -> takes as parameters the signal, and the impulse response. It returns the signal with the impulse response applied.
+
+	* All other files in this folder were provided by the Numerical Methods team
 
 Task 2 - Robotzii
 Description: this task simulates the pre-calculated movements of an autonomous robot using interpolation methods

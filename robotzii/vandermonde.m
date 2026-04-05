@@ -3,7 +3,7 @@ function coef = vandermonde(x, y)
     % y = [y0, y1, ..., yn]'
     % coef = [a0, a1, a2, ..., an]'
 
-    % TODO: Calculate the Vandermonde coefficients
+    % Calculate the Vandermonde coefficients
     A = fliplr(vander(x))
 
     coef = A\(y')

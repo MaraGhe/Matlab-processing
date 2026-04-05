@@ -1,4 +1,4 @@
-function plot_vandermonde(x, y, nr_points)
+function plot_spline(x, y, nr_points)
     % Calculate the spline polynomial coefficients
     coef = spline_c2(x, y);
 

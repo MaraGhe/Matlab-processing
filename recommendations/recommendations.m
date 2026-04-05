@@ -1,5 +1,5 @@
 function recoms = recommendations(path, liked_theme, num_recoms, min_reviews, num_features)
-  # TODO: Get the best `num_recoms` recommandations similar with 'liked_theme'.
+  # Get the best `num_recoms` recommandations similar with 'liked_theme'.
   A = read_mat(path)
   A = preprocess(A, min_reviews)
   [U S V] = svds(A, num_features)
