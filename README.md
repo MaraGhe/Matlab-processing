@@ -1,4 +1,4 @@
-Time efficient MATLAB algorithms for processing large amounts of data: audio handling, automated movement and database parsing
+Time efficient MATLAB algorithms for processing large amounts of data: audio handling, signal processing, automated movement and database parsing
 
 Mara Gheorghe, Politehnica University of Bucharest
 
